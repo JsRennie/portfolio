@@ -11,8 +11,9 @@ const projects = [
     description:
       "An application that manages your rentals property. A student is able to register into the app then uploads her/his details then proceeds to make an application to book a room",
     image: "/hostel.png",
-    github: "#",
-    figma: "",
+    github: "https://github.com/JsRennie",
+    figma:
+      "https://www.figma.com/file/xvNVEw33o3iTYFD2bAkAHN/Rental-management?node-id=0%3A1&t=TmXjCALnjhM4W66u-1",
     link: "https://www.figma.com/proto/xvNVEw33o3iTYFD2bAkAHN/Rental-management?node-id=0-1&viewport=494%2C710%2C0.11&scaling=min-zoom&starting-point-node-id=94%3A39&show-proto-sidebar=1",
   },
   {
@@ -20,16 +21,18 @@ const projects = [
     description:
       "An application that manages your todos/tasks, it able to categorize your tasks into section and set reminders and notiication about each",
     image: "/Todo.png",
-    github: "#",
-    figma: "",
+    github: "https://github.com/JsRennie",
+    figma:
+      "https://www.figma.com/file/e3r2Eibqwy10aJmtbADLKd/Websie-Design?node-id=0%3A1&t=2cjf3IR7YHzQfraU-1",
     link: "https://www.figma.com/file/e3r2Eibqwy10aJmtbADLKd/Websie-Design?node-id=0%3A1&t=2cjf3IR7YHzQfraU-1",
   },
   {
     name: "Pet Adoption",
     description: "An Online pet Adoption website",
     image: "/pet.png",
-    github: "#",
-    figma: "",
+    github: "https://github.com/JsRennie",
+    figma:
+      "https://www.figma.com/file/6YiKCpXxFYtCte8ckXbJn3/Pet-Website?node-id=0%3A1&t=yoQI2iQruLiBiT9H-1",
     link: "https://www.figma.com/proto/6YiKCpXxFYtCte8ckXbJn3/Pet-Website?node-id=0-1&viewport=385%2C283%2C0.13&scaling=min-zoom&starting-point-node-id=1%3A2",
   },
 ];

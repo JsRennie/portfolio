@@ -3,6 +3,7 @@ import React from "react";
 import Image from "next/image";
 import { Link } from "react-scroll/modules";
 import { HiArrowDown } from "react-icons/hi";
+import NextLink from "next/link";
 
 const HeroSection = () => {
   return (
@@ -29,17 +30,26 @@ const HeroSection = () => {
             based in Nairobi, Kenya. Working on creating UI design Systems that
             makes life easier and more user-friendly!
           </p>
-          <Link
-            to="projects"
-            className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
-            activeClass="active"
-            spy={true}
-            smooth={true}
-            offset={-100}
-            duration={500}
-          >
-            Projects
-          </Link>
+          <div className="space-x-10">
+            <Link
+              to="projects"
+              className="text-neutral-100 font-semibold cursor-pointer px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
+              activeClass="active"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+            >
+              Projects
+            </Link>
+            <NextLink
+              href="https://drive.google.com/file/d/17HVgFq0K8t5_IHX8_kwICtfMuWljThSF/view?usp=share_link"
+              target="_blank"
+              className="text-neutral-100 font-semibold cursor-pointer px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
+            >
+              My Resume
+            </NextLink>
+          </div>
         </div>
       </div>
       <div>
@@ -52,7 +62,7 @@ const HeroSection = () => {
           offset={-100}
           duration={500}
         >
-          <HiArrowDown size={35} className="animate-bounce" />
+          <HiArrowDown size={35} className="animate-bounce cursor-pointer" />
         </Link>
       </div>
     </section>

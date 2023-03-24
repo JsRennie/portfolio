@@ -1,6 +1,20 @@
-<<<<<<< HEAD
-This is my Portofile!
-i will be providing the design system with figma soon...
-=======
+My Portfolio
 
->>>>>>> a7e6ef2712dae8fab9e6ef5b087304662f1ee1fa
+This is a portfolio created with Tailwind CSS and Next.js.
+
+![Portfolio Snapshot](snapshot/snapshot.svg)
+
+## You can View my design here
+
+You can access the design file at `https://www.figma.com/file/fuNTgt1ps4TMhlQHpTFufD/My-Portfolio?node-id=0%3A1&t=38rPgphFZuWnd7a1-1`
+
+The prototype at `https://www.figma.com/proto/fuNTgt1ps4TMhlQHpTFufD/My-Portfolio?node-id=0-1&viewport=893%2C793%2C0.47&scaling=min-zoom&starting-point-node-id=2%3A2`
+
+## Running Locally
+
+Can run the application in VS Code or a terminal and it will be available at `http://localhost:3000`.
+
+```bash
+npm install
+npm run dev
+```

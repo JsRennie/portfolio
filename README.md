@@ -2,7 +2,7 @@ My Portfolio
 
 This is a portfolio created with Tailwind CSS and Next.js.
 
-![Portfolio Snapshot](snapshot/snapshot.svg)
+![Portfolio Snapshot](snapshot/snapshot.png)
 
 ## You can View my design here
 

@@ -29,7 +29,7 @@ const projects = [
   {
     name: "Pet Adoption",
     description: "An Online pet Adoption website",
-    image: "/pet.png",
+    image: "/Pet.png",
     github: "https://github.com/JsRennie",
     figma:
       "https://www.figma.com/file/6YiKCpXxFYtCte8ckXbJn3/Pet-Website?node-id=0%3A1&t=yoQI2iQruLiBiT9H-1",
@@ -70,19 +70,19 @@ const ProjectSection = () => {
                     <Link href={project.github} target="_blank">
                       <BsGithub
                         size={30}
-                        className="hover:-translate-y-1 transition-transform cursor-pointer"
+                        className="hover:-translate-y-1 transition-transform cursor-pointer hover:bg-teal-500"
                       />
                     </Link>
                     <Link href={project.link} target="_blank">
                       <BsArrowUpRightSquare
                         size={30}
-                        className="hover:-translate-y-1 transition-transform cursor-pointer"
+                        className="hover:-translate-y-1 transition-transform cursor-pointer hover:bg-teal-500"
                       />
                     </Link>
                     <Link href={project.figma} target="_blank">
                       <FiFigma
                         size={30}
-                        className="hover:-translate-y-1 transition-transform cursor-pointer"
+                        className="hover:-translate-y-1 transition-transform cursor-pointer hover:bg-teal-500"
                       />
                     </Link>
                   </div>

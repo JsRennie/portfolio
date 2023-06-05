@@ -23,9 +23,9 @@ const HeroSection = () => {
             Hello, I&#39;m Gerald!
           </h1>
           <p className="text-lg mt-4 mb-6 md:text-2lx">
-            I&#39;m a {""}
-            <span className="font-sembold text-teal-600">
-              Frontend Developer{""}
+            I&#39;m a
+            <span className="font-sembold text-teal-600 px-1">
+              Fullstack Developer
             </span>
             based in Nairobi, Kenya. Working on creating UI design Systems that
             makes life easier and more user-friendly!

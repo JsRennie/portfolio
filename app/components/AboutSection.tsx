@@ -55,7 +55,7 @@ const AboutSection = () => {
             <br />
             <p>
               I believe that you should
-              <span className="font-bold text-teal-500">
+              <span className="font-bold text-teal-500 pl-1">
                 never stop growing/learning
               </span>{" "}
               and that&#39;s what I strive to do, I have a passion for

@@ -5,6 +5,10 @@ const skills = [
   { skill: "HTML" },
   { skill: "CSS" },
   { skill: "Javascript" },
+  { skill: "Typescript" },
+  { skill: "MongoDB" },
+  { skill: "Mongoose" },
+  { skill: "Nest.js" },
   { skill: "React" },
   { skill: "Next.js" },
   { skill: "TailWind CSS" },
@@ -32,7 +36,7 @@ const AboutSection = () => {
               Hi, my name is Renson and Im a {""}
               <span className="font-bold">{"highly ambitious"}</span>,
               <span className="font-bold">{" Goal-oriented"}</span>, and
-              <span className="font-bold">{" self-driven "}</span>Frontend
+              <span className="font-bold">{" self-driven "}</span>Fullstack
               Developer -based in Nairobi, Kenya.
             </p>
             <br />
@@ -50,7 +54,7 @@ const AboutSection = () => {
             </p>
             <br />
             <p>
-              I believe that you should{" "}
+              I believe that you should
               <span className="font-bold text-teal-500">
                 never stop growing/learning
               </span>{" "}

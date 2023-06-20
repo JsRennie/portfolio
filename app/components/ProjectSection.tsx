@@ -11,7 +11,7 @@ const projects = [
     description:
       "An application that manages your rentals property. A student is able to register into the app then uploads her/his details then proceeds to make an application to book a room",
     image: "/hostel.png",
-    github: "https://github.com/JsRennie",
+    github: "https://github.com/JsRennie/rental-management.git",
     figma:
       "https://www.figma.com/file/xvNVEw33o3iTYFD2bAkAHN/Rental-management?node-id=0%3A1&t=TmXjCALnjhM4W66u-1",
     link: "https://www.figma.com/proto/xvNVEw33o3iTYFD2bAkAHN/Rental-management?node-id=0-1&viewport=494%2C710%2C0.11&scaling=min-zoom&starting-point-node-id=94%3A39&show-proto-sidebar=1",
@@ -30,10 +30,19 @@ const projects = [
     name: "Pet Adoption",
     description: "An Online pet Adoption website",
     image: "/Pet.png",
-    github: "https://github.com/JsRennie",
+    github: "https://github.com/JsRennie/pet-lovers.git",
     figma:
       "https://www.figma.com/file/6YiKCpXxFYtCte8ckXbJn3/Pet-Website?node-id=0%3A1&t=yoQI2iQruLiBiT9H-1",
     link: "https://www.figma.com/proto/6YiKCpXxFYtCte8ckXbJn3/Pet-Website?node-id=0-1&viewport=385%2C283%2C0.13&scaling=min-zoom&starting-point-node-id=1%3A2",
+  },
+  {
+    name: "Maji Maji Water App",
+    description: "An Online water delivery app",
+    image: "/maji.png",
+    github: "https://github.com/JsRennie",
+    figma:
+      "https://www.figma.com/file/opAjEuWalk0bf04RgwSZpQ/Maji-Maji-App?type=design&node-id=0%3A1&t=66Q1loqoMfXNaiq2-1",
+    link: "https://www.figma.com/proto/opAjEuWalk0bf04RgwSZpQ/Maji-Maji-App?type=design&node-id=0-1&viewport=442%2C106%2C0.15&scaling=scale-down&starting-point-node-id=4%3A22",
   },
 ];
 

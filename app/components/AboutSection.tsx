@@ -3,19 +3,16 @@ import Image from "next/image";
 
 const skills = [
   { skill: "HTML" },
-  { skill: "CSS" },
   { skill: "Javascript" },
-  { skill: "Typescript" },
-  { skill: "MongoDB" },
-  { skill: "Mongoose" },
-  { skill: "Nest.js" },
   { skill: "React" },
   { skill: "Next.js" },
+  { skill: "Typescript" },
   { skill: "TailWind CSS" },
   { skill: "Material UI" },
+  { skill: "Version control - Github" },
   { skill: "UI/UX Design- Figma" },
-  { skill: "Git" },
-  { skill: "Github" },
+  { skill: "Animation - Lottie" },
+  { skill: "Motion Design" },
 ];
 
 const AboutSection = () => {
@@ -48,8 +45,8 @@ const AboutSection = () => {
             <br />
             <p>
               I have a wide range of hobbies and passions that keep me busy.
-              From reading, Photography, Designing, to prototype, I am always
-              seeking new experiences and love to keep myself engaged and
+              From Designing, Prototyping, Developement, to deployment, I am
+              always seeking new experiences and love to keep myself engaged and
               learning new things.
             </p>
             <br />
@@ -73,17 +70,16 @@ const AboutSection = () => {
                 return (
                   <p
                     key={idx}
-                    className="bg-gray-200 px-4 py-2 mr-2 mt-2 text-gray-500 hover:bg-teal-700 hover:text-white rounded font-semibold"
-                  >
+                    className="bg-gray-200 px-4 py-2 mr-2 mt-2 text-gray-500 hover:bg-teal-700 hover:text-white rounded font-semibold">
                     {item.skill}
                   </p>
                 );
               })}
             </div>
             <Image
-              className="hidden md:block md:relative md:bottom-4 md:left-32 md:z-0"
+              className="hidden md:block md:relative md:bottom-4 md:left-12 md:z-0"
               src="/hero-image.png"
-              alt=""
+              alt="banner"
               width={325}
               height={325}
             />

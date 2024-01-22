@@ -23,14 +23,20 @@ const HeroSection = () => {
             Hello, I&#39;m Gerald!
           </h1>
           <p className="text-lg mt-4 mb-6 md:text-2lx">
-            I&#39;m a
+            An
             <span className="font-sembold text-teal-600 px-1">
-              Fullstack Developer
+              Accomplished UI Engineer
             </span>
-            based in Nairobi, Kenya. Working on creating UI design Systems that
-            makes life easier and more user-friendly!
+            specializing in front-end development and UI/UX design. Proficient
+            in leveraging Next.js|React.js and Figma to create dynamic,
+            user-centric interfaces while collaborating seamlessly with
+            cross-functional teams. Adept in translating design concepts into
+            intuitive, responsive web applications, ensuring optimal user
+            experiences. Proven track record in agile environments, balancing
+            technical expertise with a keen eye for design to deliver innovative
+            and impactful solutions.
           </p>
-          <div className="space-x-10">
+          <div className="space-x-6">
             <Link
               to="projects"
               className="text-neutral-100 font-semibold cursor-pointer px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
@@ -38,15 +44,19 @@ const HeroSection = () => {
               spy={true}
               smooth={true}
               offset={-100}
-              duration={500}
-            >
+              duration={500}>
               Projects
             </Link>
             <NextLink
-              href="https://docs.google.com/document/d/15KfAb1oZ9IWr2N85cmbn_eFImlUUIwMT/edit?usp=sharing&ouid=111453695760285683775&rtpof=true&sd=true"
+              href="https://dribbble.com/rennie_design"
               target="_blank"
-              className="text-neutral-100 font-semibold cursor-pointer px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
-            >
+              className="text-neutral-100 font-semibold cursor-pointer px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700">
+              Dribble
+            </NextLink>
+            <NextLink
+              href=""
+              target="_blank"
+              className="text-neutral-100 font-semibold cursor-pointer px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700">
               My Resume
             </NextLink>
           </div>
@@ -60,8 +70,7 @@ const HeroSection = () => {
           spy={true}
           smooth={true}
           offset={-100}
-          duration={500}
-        >
+          duration={500}>
           <HiArrowDown size={35} className="animate-bounce cursor-pointer" />
         </Link>
       </div>

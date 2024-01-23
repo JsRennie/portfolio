@@ -78,7 +78,7 @@ const AboutSection = () => {
             </div>
             <Image
               className="hidden md:block md:relative md:bottom-4 md:left-12 md:z-0"
-              src="/hero-image.png"
+              src="/image.png"
               alt="banner"
               width={325}
               height={325}

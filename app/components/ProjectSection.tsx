@@ -10,7 +10,7 @@ const projects = [
     name: "UBEC WebApp",
     description:
       "As a passionate web developer, I had the privilege of designing and developing a website for the Utubora Education Center, a charity school dedicated to providing quality education to underprivileged children. This project was not just about creating a digital presence for the school, but also about creating a platform that could help bridge the gap between the school and potential donors, volunteers, and the community at large.",
-    image: "/bora.png",
+    image: "/utu.jpg",
     github: "https://github.com/JsRennie/rental-management.git",
     figma:
       "https://www.figma.com/file/yGuydttliJkznvlGRjLXOR/UBEC-WebApp?type=design&node-id=0%3A1&mode=design&t=7sw7AqxF3USRhQSe-1",

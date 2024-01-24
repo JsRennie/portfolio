@@ -8,7 +8,7 @@ import NextLink from "next/link";
 const HeroSection = () => {
   return (
     <section id="home">
-      <div className="flex flex-col text-center item-center justify-center my-10 py-16 sm:py-32 md:flex-row md:space-x-4 md:text-left md:py-52">
+      <div className="flex flex-col text-center item-center justify-center mt-10 py-16 sm:py-32 md:flex-row md:space-x-4 md:text-left md:py-52">
         <div className="md:w-1/2 md:mt-2">
           <Image
             className="rounded-full shadow-2xl"
@@ -63,7 +63,7 @@ const HeroSection = () => {
         </div>
       </div>
       <div>
-        <Link
+        {/**<Link
           to="about"
           className="flex flex-row justify-center"
           activeClass="active"
@@ -71,10 +71,8 @@ const HeroSection = () => {
           smooth={true}
           offset={-100}
           duration={500}>
-          <div>
-            <HiArrowDown size={35} className="animate-bounce cursor-pointer" />
-          </div>
-        </Link>
+          <HiArrowDown size={35} className="animate-bounce cursor-pointer" />
+        </Link> */}
       </div>
     </section>
   );

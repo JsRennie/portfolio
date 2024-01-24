@@ -32,7 +32,7 @@ const Footer = () => {
           </a>
 
           <a
-            href="https://www.linkedin.com/in/renson-gerald-775106236/"
+            href="https://www.linkedin.com/in/r-gerald/"
             rel="noreferrer"
             target="_blank">
             <AiOutlineLinkedin

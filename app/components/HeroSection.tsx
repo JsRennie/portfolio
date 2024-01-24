@@ -36,7 +36,7 @@ const HeroSection = () => {
             technical expertise with a keen eye for design to deliver innovative
             and impactful solutions.
           </p>
-          <div className="space-x-6">
+          <div className="sm:space-x-2 md:space-x-6">
             <Link
               to="projects"
               className="text-neutral-100 font-semibold cursor-pointer px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"

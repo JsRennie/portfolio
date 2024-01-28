@@ -30,11 +30,11 @@ const AboutSection = () => {
             </h1>
             <p>
               {""}
-              Hi, my name is Renson and Im a {""}
+              Hi, my name is Renson and Im a
               <span className="font-bold">{"highly ambitious"}</span>,
               <span className="font-bold">{" Goal-oriented"}</span>, and
-              <span className="font-bold">{" self-driven "}</span>Fullstack
-              Developer -based in Nairobi, Kenya.
+              <span className="font-bold">{" self-driven "}</span>UI/UX Designer
+              & Front-end Developer- based in Nairobi, Kenya.
             </p>
             <br />
             <p>

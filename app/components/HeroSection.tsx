@@ -39,7 +39,7 @@ const HeroSection = () => {
           <div className="sm:space-x-4 md:space-x-6">
             <Link
               to="projects"
-              className="text-neutral-100 font-semibold cursor-pointer px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
+              className="text-neutral-100 font-semibold cursor-pointer px-4 md:px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
               activeClass="active"
               spy={true}
               smooth={true}
@@ -50,13 +50,13 @@ const HeroSection = () => {
             <NextLink
               href="https://dribbble.com/rennie_design"
               target="_blank"
-              className="text-neutral-100 font-semibold cursor-pointer px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700">
+              className="text-neutral-100 font-semibold cursor-pointer px-4 md:px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700">
               Dribble
             </NextLink>
             <NextLink
               href="https://docs.google.com/document/d/1OyLKqtjtckjKfSwWChzMNWwiPhD5drAPW69kQoKnlzw/edit?usp=sharing"
               target="_blank"
-              className="text-neutral-100 font-semibold cursor-pointer px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700">
+              className="text-neutral-100 font-semibold cursor-pointer px-4 md:px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700">
               My Resume
             </NextLink>
           </div>

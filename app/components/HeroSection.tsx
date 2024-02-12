@@ -2,7 +2,6 @@
 import React from "react";
 import Image from "next/image";
 import { Link } from "react-scroll/modules";
-import { HiArrowDown } from "react-icons/hi";
 import NextLink from "next/link";
 
 const HeroSection = () => {
@@ -61,18 +60,6 @@ const HeroSection = () => {
             </NextLink>
           </div>
         </div>
-      </div>
-      <div>
-        <Link
-          to="about"
-          className="flex flex-row justify-center"
-          activeClass="active"
-          spy={true}
-          smooth={true}
-          offset={-100}
-          duration={500}>
-          <HiArrowDown size={35} className="animate-bounce cursor-pointer" />
-        </Link>
       </div>
     </section>
   );

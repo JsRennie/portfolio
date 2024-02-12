@@ -20,7 +20,7 @@ const ProjectSection = () => {
               {/*<SlideUp offset="-300px opx -300px 0px">*/}
               <div className="flex flex-col animate-slideUpCubiBezier md:flex-row md:space-x-12">
                 <div className="mt-8 md:w-1/2">
-                  <Link href={project.id} target="_blank">
+                  <Link href={project.route} target="_blank">
                     <Image
                       src={project.image}
                       alt="snapshot of my project"

@@ -21,8 +21,8 @@ const HeroSection: React.FC<HeroSectionProps> = ({
   imageSrc,
 }) => {
   return (
-    <section className="flex gap-16 mt-24 h-screen py-16">
-      <div className="w-2/5">
+    <section className="flex flex-col md:flex-row gap-16 mt-24 h-screen py-16">
+      <div className="w-full md:w-2/5">
         <p className="font-normal uppercase text-sm mb-4">{title}</p>
         <h1 className="font-black text-3xl mb-6">{subtitle}</h1>
         <div className="flex gap-3">
@@ -51,7 +51,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({
           </div>
         </div>
       </div>
-      <div className="w-3/5">
+      <div className="w-full md:w-3/5">
         <div className="w-full flex items-center justify-center h-4/5">
           <Image src={imageSrc} alt="banner" width={800} height={400} />
         </div>
